@@ -1,0 +1,15 @@
+---
+app:
+  filters:
+  - label: Treatments
+    dbfield: treatmentList
+    values:
+    - Dentist
+    - Physiotherapist
+    type: checkbox
+  - label: Clinics
+    dbfield: clinicName
+    values:
+    - General Hospital
+    - Dentis Clinic
+    type: dropdown
