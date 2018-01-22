@@ -1,5 +1,4 @@
 ---
-navConfiguration:
 - pageId: welcome
   nextOptionList:
   - optionValues:
