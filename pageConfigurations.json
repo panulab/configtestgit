@@ -1,46 +1,80 @@
-[
-  {
-    "pageId": "welcome",
-    "showHeader": false,
-    "showFooter": false,
-    "circleButtonConfigList": [
-      {
-        "id": "CAR_COLLISION",
-        "label": "car.collision.label",
-        "icon": "CAR"
+[  
+   {  
+      "pageId":"navigationFnol",
+      "pageType":"navigation",
+      "titleConfig":{  
+         "showTitle":true,
+         "titleText":"navigationFnol.title"
       },
-      {
-        "id": "MOTORCYCLE_COLLISION",
-        "label": "motorcycle.collision.label",
-        "icon": "MOTORCYCLE"
-      }
-    ],
-    "circleButtonContainerConfig": {
-      "id": "welcomeButtonContainer",
-      "buttonsPerRow": 2,
-      "multiSelection": false
-    }
-  },
-  {
-    "pageId": "reaction",
-    "showHeader": true,
-    "showFooter": true,
-    "circleButtonConfigList": [
-      {
-        "id": "CITY_ACCIDENT",
-        "label": "forest.accident.label",
-        "icon": "CITY"
+      "subtitleConfig":{  
+         "showSubtitle":true,
+         "subtitleText":"navigationFnol.subtitle"
       },
-      {
-        "id": "FOREST_ACCIDENT",
-        "label": "forest.accident.label",
-        "icon": "FOREST"
+      "circleButtonContainerConfig":{  
+         "buttons":[  
+            {  
+               "id":"WATER_DAMAGE",
+               "label":"water.damage.label",
+               "icon":"product-water-tab"
+            },
+            {  
+               "id":"WEATHER_DAMAGE",
+               "label":"weather.damage.label",
+               "icon":"product-cloud"
+            },
+            {  
+               "id":"FIRE_DAMAGE",
+               "label":"fire.damage.label",
+               "icon":"product-house-fire"
+            },
+            {  
+               "id":"BURGLARY",
+               "label":"burglary.label",
+               "icon":"product-thief"
+            },
+            {  
+               "id":"BREAKAGE_GLASS",
+               "label":"breakage.glass.label",
+               "icon":"product-broken-window"
+            },
+            {  
+               "id":"OTHER",
+               "label":"other.label",
+               "icon":"plus"
+            }
+         ],
+         "buttonsPerRow":4,
+         "multiSelection":false
+      },
+      "textareaConfig":{  
+         "textareaLabel":"textarea.label",
+         "textareaPlaceholde":"textarea.placeholder",
+         "textareaMaxlength":255
+      },
+      "navButtonContainerConfig":{  
+         "nextLabel":"next.label",
+         "backLabel":"back.label",
+         "nextType":"primary",
+         "backType":"secondary",
+         "nextHidden":true
       }
-    ],
-    "circleButtonContainerConfig": {
-      "id": "reactionButtonContainer",
-      "buttonsPerRow": 4,
-      "multiSelection": true
-    }
-  }
+   },
+   {  
+      "pageId":"additionalInformationFnol",
+      "pageType":"navigation",
+      "titleConfig":{  
+         "showTitle":true,
+         "titleText":"additionalInformationFnol.title"
+      },
+      "subtitleConfig":{  
+         "showSubtitle":false,
+         "subtitleText":"additionalInformationFnol.subtitle"
+      },
+      "navButtonContainerConfig":{  
+         "nextLabel":"next.label",
+         "backLabel":"back.label",
+         "nextType":"cta",
+         "backType":"secondary"
+      }
+   }
 ]
