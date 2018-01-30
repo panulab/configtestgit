@@ -31,11 +31,6 @@
                   "icon": "product-cloud"
                 },
                 {
-                  "id": "FIRE_DAMAGE",
-                  "label": "fire.damage.label",
-                  "icon": "product-house-fire"
-                },
-                {
                   "id": "BURGLARY",
                   "label": "burglary.label",
                   "icon": "product-thief"
