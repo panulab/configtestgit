@@ -9,7 +9,7 @@
             "titleText": "navigationFnol.title"
           },
           "subtitleConfig": {
-            "showSubtitle": true,
+            "showSubtitle": false,
             "subtitleText": "navigationFnol.subtitle"
           },
           "textareaConfig": {
