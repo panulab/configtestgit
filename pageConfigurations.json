@@ -1,77 +1,77 @@
 [
         {
-          'pageId': 'welcome',
-          'pageType': 'navigation',
-          'showFooter': true,
-          'showHeader': true,
-          'titleConfig': {
-            'showTitle': true,
-            'titleText': 'navigationFnol.title'
+          "pageId": "welcome",
+          "pageType": "navigation",
+          "showFooter": true,
+          "showHeader": true,
+          "titleConfig": {
+            "showTitle": true,
+            "titleText": "navigationFnol.title"
           },
-          'subtitleConfig': {
-            'showSubtitle': true,
-            'subtitleText': 'navigationFnol.subtitle'
+          "subtitleConfig": {
+            "showSubtitle": true,
+            "subtitleText": "navigationFnol.subtitle"
           },
-          'textareaConfig': {
-            'label': 'textarea.label',
-            'placeholder': 'textarea.placeholder',
-            'maxLength': 255
+          "textareaConfig": {
+            "label": "textarea.label",
+            "placeholder": "textarea.placeholder",
+            "maxLength": 255
           },
-          'circleButtonContainerConfig': {
-            'rows': [
+          "circleButtonContainerConfig": {
+            "rows": [
               [
                 {
-                  'id': 'WATER_DAMAGE',
-                  'label': 'water.damage.label',
-                  'icon': 'product-water-tap'
+                  "id": "WATER_DAMAGE",
+                  "label": "water.damage.label",
+                  "icon": "product-water-tap"
                 },
                 {
-                  'id': 'WEATHER_DAMAGE',
-                  'label': 'weather.damage.label',
-                  'icon': 'product-cloud'
+                  "id": "WEATHER_DAMAGE",
+                  "label": "weather.damage.label",
+                  "icon": "product-cloud"
                 },
                 {
-                  'id': 'FIRE_DAMAGE',
-                  'label': 'fire.damage.label',
-                  'icon': 'product-house-fire'
+                  "id": "FIRE_DAMAGE",
+                  "label": "fire.damage.label",
+                  "icon": "product-house-fire"
                 },
                 {
-                  'id': 'BURGLARY',
-                  'label': 'burglary.label',
-                  'icon': 'product-thief'
+                  "id": "BURGLARY",
+                  "label": "burglary.label",
+                  "icon": "product-thief"
                 }
 
               ],
               [
                 {
-                  'id': 'BREAKAGE_GLASS',
-                  'label': 'breakage.glass.label',
-                  'icon': 'product-broken-window'
+                  "id": "BREAKAGE_GLASS",
+                  "label": "breakage.glass.label",
+                  "icon": "product-broken-window"
                 },
                 {
-                  'id': 'OTHER',
-                  'label': 'other.label',
-                  'icon': 'plus'
+                  "id": "OTHER",
+                  "label": "other.label",
+                  "icon": "plus"
                 }
 
               ]
             ],
-            'buttonsPerRow': 3,
-            'multiSelection': false
+            "buttonsPerRow": 3,
+            "multiSelection": false
           }
         },
         {
-          'pageId': 'second-page',
-          'showFooter': true,
-          'showHeader': true
+          "pageId": "second-page",
+          "showFooter": true,
+          "showHeader": true
         },
         {
-          'pageId': 'error-page',
-          'showHeader': true,
-          'showFooter': true,
-          'titleConfig': {
-            'showTitle': true,
-            'titleText': 'errorPageMessage'
+          "pageId": "error-page",
+          "showHeader": true,
+          "showFooter": true,
+          "titleConfig": {
+            "showTitle": true,
+            "titleText": "errorPageMessage"
           },
         };
   ]
