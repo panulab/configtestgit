@@ -4,6 +4,8 @@
           "pageType": "navigation",
           "showFooter": true,
           "showHeader": true,
+          "hideNextButton": false,
+          "hideBackButton": true,
           "titleConfig": {
             "showTitle": true,
             "titleText": "navigationFnol.title"
@@ -62,12 +64,16 @@
         {
           "pageId": "second-page",
           "showFooter": true,
-          "showHeader": true
+          "showHeader": true,
+          "hideNextButton": true,
+          "hideBackButton": false
         },
         {
           "pageId": "error-page",
           "showHeader": true,
           "showFooter": true,
+          "hideNextButton": true,
+          "hideBackButton": true,
           "titleConfig": {
             "showTitle": true,
             "titleText": "errorPageMessage"
