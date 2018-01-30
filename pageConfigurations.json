@@ -39,8 +39,12 @@
                   "id": "BURGLARY",
                   "label": "burglary.label",
                   "icon": "product-thief"
+                },
+                {
+                  "id": "BURGLARY",
+                  "label": "burglary.label",
+                  "icon": "product-thief"
                 }
-
               ],
               [
                 {
