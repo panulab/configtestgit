@@ -1,3 +1,6 @@
 {
-	"maxLengthCommentsField": "200"
+	"maxLengthCommentsField": "200",
+	"typesOfDocumentsAllowed": ["pdf","jpg","tiff"],
+	"maxFileSize": "1000",
+	"ICAPEndpoint": "http://www.fakeendpoind.com"
 }
