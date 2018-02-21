@@ -1,0 +1,6 @@
+{
+	"cisl.error.category.unknown": "Unknown category",
+	"cisl.error.extension.invalid": "The extension of the file is not allowed for the selected category",
+	"cisl.error.mimetype.invalid": "The mimetype of the file is not allowed for the selected category",
+	"cisl.error.size.invalid": "The size of the file is bigger than the allowed for the selected category"
+}
