@@ -5,8 +5,8 @@
 	"ICAPEndpoint": "http://www.fakeendpoind.com",
 	"documentRenamingFormat": "TIMESTAMP#_#DOCCATEGORY#_#CLAIMID#.#FILEEXTENSION",
 	"documentRenamingTimestampFormat":"yyyyMMddHHmmssSSSS",
-	"validateDocumentCategory":"true",
-	"validateDocumentExtension":"true",
-	"validateDocumentMimetype":"true",
-	"validateDocumentSize":"true"
+	"validateDocumentCategory":"TRUE",
+	"validateDocumentExtension":"TRUE",
+	"validateDocumentMimetype":"TRUE",
+	"validateDocumentSize":"TRUE"
 }
