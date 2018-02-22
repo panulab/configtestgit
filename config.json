@@ -2,5 +2,7 @@
 	"maxLengthCommentsField": "200",
 	"typesOfDocumentsAllowed": ["pdf","jpg","tiff"],
 	"maxFileSize": "1000",
-	"ICAPEndpoint": "http://www.fakeendpoind.com"
+	"ICAPEndpoint": "http://www.fakeendpoind.com",
+	"documentRenamingFormat": "TIMESTAMP#_#DOCCATEGORY#_#CLAIMID#.#FILEEXTENSION",
+	"documentRenamingTimestampFormat":"yyyyMMddHHmmssSSSS"
 }
