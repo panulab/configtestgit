@@ -4,5 +4,9 @@
 	"maxFileSize": "1000",
 	"ICAPEndpoint": "http://www.fakeendpoind.com",
 	"documentRenamingFormat": "TIMESTAMP#_#DOCCATEGORY#_#CLAIMID#.#FILEEXTENSION",
-	"documentRenamingTimestampFormat":"yyyyMMddHHmmssSSSS"
+	"documentRenamingTimestampFormat":"yyyyMMddHHmmssSSSS",
+	"validateDocumentCategory":"true",
+	"validateDocumentExtension":"true",
+	"validateDocumentMimetype":"true",
+	"validateDocumentSize":"true"
 }
