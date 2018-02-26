@@ -1,0 +1,12 @@
+{
+	"maxLengthCommentsField": 100,
+	"typesOfDocumentsAllowed": ["pdf","jpg"],
+	"maxFileSize": "1000",
+	"ICAPEndpoint": "http://www.fakespanishendpoind.com",
+	"documentRenamingFormat": "TIMESTAMP#_#DOCCATEGORY#_#CLAIMID#.#FILEEXTENSION",
+	"documentRenamingTimestampFormat":"yyyyMMddHHmmssSSSS",
+	"validateDocumentCategory":true,
+	"validateDocumentExtension":true,
+	"validateDocumentMimetype":true,
+	"validateDocumentSize":true
+}
