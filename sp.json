@@ -1,6 +1,6 @@
 {
 	"cisl.error.category.unknown": "Categoría desconocida",
 	"cisl.error.extension.invalid": "Extensión de fichero inválida",
-	"cisl.error.mimetype.invalid": "Mimetype de fichero invalido",
-	"cisl.error.size.invalid": "Tamaño de fichero invalido"
+	"cisl.error.mimetype.invalid": "Mimetype de fichero inválido",
+	"cisl.error.size.invalid": "Tamaño de fichero inválido"
 }
