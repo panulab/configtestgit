@@ -4,7 +4,7 @@
 	"maxFileSize":1000,
 	"useICAPMalwareDetection":true,
 	"ICAPHost":"34.241.39.255",
-	"ICAPPort":"1344",
+	"ICAPPort":1344,
 	"ICAPService":"squidclamav",
 	"ICAPEndpoint": "http://www.fakeendpoind.com",
 	"documentRenamingFormat": "TIMESTAMP#_#DOCCATEGORY#_#CLAIMID#.#FILEEXTENSION",
