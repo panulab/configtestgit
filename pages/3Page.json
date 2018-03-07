@@ -1,0 +1,96 @@
+  {
+    "pageId": "additional-information",
+    "showFooter": true,
+    "showHeader": true,
+    "hideNextButton": false,
+    "hideBackButton": false,
+    "additionalInformationPageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "additionalInfo.title"
+      },
+      "questionContainerConfig": {
+        "id": "questionContainerTest",
+        "questions": [
+          {
+            "id": "q1",
+            "questionText": "q1.test",
+            "questionHidden": false,
+            "questionMandatory": true,
+            "iconsUrl": "../../assets/misc/",
+            "leftOptionConfig": {
+              "id": "LEFT_Q1",
+              "icon": "/icon_yes-default.svg",
+              "iconChecked": "/icon_yes-selected.svg"
+            },
+            "rightOptionConfig": {
+              "id": "RIGHT_Q1",
+              "icon": "/icon_no-default.svg",
+              "iconChecked": "/icon_no-selected.svg"
+            }
+          },
+          {
+            "id": "q2",
+            "questionText": "q2.test",
+            "questionHidden": false,
+            "questionMandatory": true,
+            "iconsUrl": "../../assets/misc/",
+            "leftOptionConfig": {
+              "id": "LEFT_Q2",
+              "icon": "/icon_yes-default.svg",
+              "iconChecked": "/icon_yes-selected.svg"
+            },
+            "rightOptionConfig": {
+              "id": "RIGHT_Q2",
+              "icon": "/icon_no-default.svg",
+              "iconChecked": "/icon_no-selected.svg"
+            },
+            "advancedQuestionConf": {
+              "additionalFieldType": "number",
+              "additionalFieldIsMandatory":false,
+              "inputLabel": "advanced.question.label",
+              "additionalFieldSide": "RIGHT_Q2",
+              "hidden": false,
+              "currencyLabel": "USD",
+              "currencyThousandSeparator": ",",
+              "currencyDecimalSeparator": ".",
+              "textareaConfig": {
+                "label": "textarea.label",
+                "placeholder": "textarea.placeholder",
+                "maxLength": 255,
+                "hidden":false
+              },
+              "googleAutocompleteConfig": {
+                "countryCodes": ["ES", "DE", "IT", "UK"],
+                "label": "address.google.autocomplete.field"
+              }
+            }
+          },
+          {
+            "id": "q3",
+            "questionText": "q3.test",
+            "questionHidden": false,
+            "questionMandatory": false,
+            "iconsUrl": "../../assets/misc/",
+            "leftOptionConfig": {
+              "id": "LEFT_Q3",
+              "icon": "/icon_yes-default.svg",
+              "iconChecked": "/icon_yes-selected.svg"
+            },
+            "rightOptionConfig": {
+              "id": "RIGHT_Q3",
+              "icon": "/icon_no-default.svg",
+              "iconChecked": "/icon_no-selected.svg"
+            }
+          }
+        ]
+      },
+      "textareaConfig": {
+        "id": "textareaAdditional",
+        "label": "textarea.label",
+        "placeholder": "textarea.placeholder",
+        "maxLength": 255,
+        "hidden": false
+      }
+    }
+  }
