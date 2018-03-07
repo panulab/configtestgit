@@ -1,0 +1,70 @@
+  {
+    "pageId": "damage-type-selection",
+    "showFooter": true,
+    "showHeader": true,
+    "hideNextButton": false,
+    "hideBackButton": true,
+    "navigationOptionsPageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "navigationFnol.title"
+      },
+      "subtitleConfig": {
+        "showSubtitle": true,
+        "subtitleText": "navigationFnol.subtitle"
+      },
+      "textareaConfig": {
+        "id": "eventDescription",
+        "label": "textarea.label",
+        "placeholder": "textarea.placeholder",
+        "maxLength": 255,
+        "hidden": false
+      },
+      "circleButtonContainerConfig": {
+        "id": "damageTypeButtons",
+        "rows": [
+          [
+            {
+              "id": "WATER_DAMAGE",
+              "label": "water.damage.label",
+              "icon": "product-water-tap"
+            },
+            {
+              "id": "FIRE_DAMAGE",
+              "label": "fire.damage.label",
+              "icon": "product-house-fire"
+            },
+            {
+              "id": "WEATHER_DAMAGE",
+              "label": "weather.damage.label",
+              "icon": "product-cloud"
+            },
+            {
+              "id": "BURGLARY",
+              "label": "burglary.label",
+              "icon": "product-thief"
+            }
+          ],
+          [
+            {
+              "id": "BREAKAGE_GLASS",
+              "label": "breakage.glass.label",
+              "icon": "product-broken-window"
+            },
+            {
+              "id": "pageTypeOverview",
+              "label": "Overview of the page types",
+              "icon": "plus"
+            },
+            {
+              "id": "OTHER",
+              "label": "other.label",
+              "icon": "plus"
+            }
+          ]
+        ],
+        "buttonsPerRow": 3,
+        "multiSelection": false
+      }
+    }
+  }
