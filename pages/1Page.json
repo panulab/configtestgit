@@ -1,0 +1,55 @@
+  {
+    "pageId": "settlement-option",
+    "showFooter": false,
+    "showHeader": true,
+    "hideNextButton": true,
+    "hideBackButton": false,
+    "linkBackButton": true,
+    "navigationOptionsLargePageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "settlementFnol.title"
+      },
+      "subtitleConfig": {
+        "showSubtitle": false,
+        "subtitleText": ""
+      },
+      "navigationOptions": {
+        "id": "settlementOption",
+        "options": [
+          {
+            "icon": "./assets/images/icon_settlement_own-repair-shop.svg",
+            "showHeader": false,
+            "hasBorder": false,
+            "title": "navigationOption.ownRepairerTitle",
+            "description": "navigationOption.ownRepairerDescription",
+            "nxNextType": "secondary",
+            "nxNextLabel": "navigationOption.ownRepairerNextButton",
+            "nxNextAction": "selfRepair"
+          },
+          {
+            "icon":
+              "./assets/images/icon_settlement_allianz-repair-partner.svg",
+            "showHeader": true,
+            "hasBorder": true,
+            "headerText": "navigationOption.repairAtAllianzHeaderText",
+            "title": "navigationOption.repairAtAllianzTitle",
+            "description": "navigationOption.repairAtAllianzDescription",
+            "nxNextType": "primary",
+            "nxNextLabel": "navigationOption.repairAtAllianzNextButton",
+            "nxNextAction": "repairAtAllianz"
+          },
+          {
+            "icon": "./assets/images/icon_settlement_cash.svg",
+            "showHeader": false,
+            "hasBorder": false,
+            "title": "navigationOption.cashSettlementTitle",
+            "description": "navigationOption.cashSettlementDescription",
+            "nxNextType": "secondary",
+            "nxNextLabel": "navigationOption.cashSettlementNextButton",
+            "nxNextAction": "cashSettlement"
+          }
+        ]
+      }
+    }
+  }

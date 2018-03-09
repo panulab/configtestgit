@@ -1,0 +1,147 @@
+[
+  {
+    "pageId": "damage-type-selection",
+    "nextOptionList": [
+      {
+        "nextPageId": "page-type-overview",
+        "conditions": ["$state.damageTypeButtons = pageTypeOverview"]
+      },
+      {
+        "nextPageId": "settlement-option",
+        "conditions": ["$state.damageTypeButtons = 'WATER_DAMAGE'"]
+      },
+      {
+        "nextPageId": "https://www.google.es/",
+        "conditions": ["$state.damageTypeButtons = 'BREAKAGE_GLASS'"],
+        "external": true
+      },
+      {
+        "nextPageId": "third-parties",
+        "conditions": ["$state.damageTypeButtons = FIRE_DAMAGE"]
+      },
+      {
+        "nextPageId": "settlement-option",
+        "conditions": [
+          "$state.buttonContainerID = FIRE_DAMAGE",
+          "$state.eventDescription = 'help'"
+        ]
+      },
+      {
+        "nextPageId": "file-upload",
+        "conditions": ["$state.damageTypeButtons = 'BURGLARY'"]
+      },
+      {
+        "nextPageId": "car-part-picker",
+        "conditions": ["$state.damageTypeButtons = OTHER"]
+      },
+      {
+        "nextPageId": "settlement-option",
+        "conditions": ["$state.eventDescription < 42"]
+      }
+    ],
+    "backOptionList": []
+  },
+  {
+    "pageId": "page-type-overview",
+    "nextOptionList": [
+      {
+        "nextPageId": "damage-type-selection",
+        "conditions": ["$state.page-type-selection = 'navigation-options'"]
+      },
+      {
+        "nextPageId": "settlement-option",
+        "conditions": [
+          "$state.page-type-selection = 'navigation-options-large'"
+        ]
+      },
+      {
+        "nextPageId": "additional-information",
+        "conditions": ["$state.page-type-selection = 'additional-information'"]
+      },
+      {
+        "nextPageId": "what-happened",
+        "conditions": ["$state.page-type-selection = 'what-happened'"]
+      },
+      {
+        "nextPageId": "person-details",
+        "conditions": ["$state.page-type-selection = 'person-details'"]
+      },
+      {
+        "nextPageId": "third-parties",
+        "conditions": ["$state.page-type-selection = 'third-parties'"]
+      },
+      {
+        "nextPageId": "car-part-picker",
+        "conditions": ["$state.page-type-selection = 'car-part-picker'"]
+      },
+      {
+        "nextPageId": "file-upload",
+        "conditions": ["$state.page-type-selection = 'file-upload'"]
+      }
+    ],
+    "backOptionList": []
+  },
+  {
+    "pageId": "settlement-option",
+    "nextOptionList": [
+      {
+        "nextPageId": "additional-information",
+        "conditions": ["$state.settlementOption = repairAtAllianz"]
+      },
+      {
+        "nextPageId": "take-care-myself",
+        "conditions": ["$state.settlementOption = selfRepair"]
+      }
+    ],
+    "backOptionList": [
+      {
+        "nextPageId": "damage-type-selection",
+        "conditions": ["true = true"]
+      }
+    ]
+  },
+  {
+    "pageId": "additional-information",
+    "nextOptionList": [
+      {
+        "nextPageId": "person-details",
+        "conditions": [
+          "$state.questionContainerTest.value = LEFT_Q1",
+          "$state.questionContainerTest.value = LEFT_Q2",
+          "$state.questionContainerTest.value = LEFT_Q3"
+        ]
+      }
+    ],
+    "backOptionList": [
+      {
+        "nextPageId": "settlement-option",
+        "conditions": ["true = true"]
+      }
+    ]
+  },
+  {
+    "pageId": "person-details",
+    "nextOptionList": [
+      {
+        "nextPageId": "third-parties",
+        "conditions": ["true = true"]
+      }
+    ],
+    "backOptionList": [
+      {
+        "nextPageId": "additional-information",
+        "conditions": ["true = true"]
+      }
+    ]
+  },
+  {
+    "pageId": "third-parties",
+    "nextOptionList": [],
+    "backOptionList": [
+      {
+        "nextPageId": "person-details",
+        "conditions": ["true = true"]
+      }
+    ]
+  }
+]
