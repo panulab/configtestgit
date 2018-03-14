@@ -12,5 +12,7 @@
 	"validateDocumentCategory":true,
 	"validateDocumentExtension":true,
 	"validateDocumentMimetype":true,
-	"validateDocumentSize":true
+	"validateDocumentSize":true,
+	"redisHostName":"localhost",
+	"redisPort":6379
 }
