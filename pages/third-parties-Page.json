@@ -1,0 +1,513 @@
+  {
+    "pageId": "third-parties",
+    "showHeader": true,
+    "showFooter": true,
+    "hideNextButton": false,
+    "hideBackButton": false,
+    "nextBtnOptionalLabel": "thirdParties.continueWithoutParties",
+    "nextBtnOptionalLabelCondition": ["$state.thirdPartyCardContainer = '[]'"],
+    "thirdPartiesPageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "thirdParties.pageTitle"
+      },
+	  "subtitleConfig": {
+        "showSubtitle": true,
+        "subtitleText": "thirdParties.pageSubtitle"
+      },
+      "overlayConfig": {
+        "id": "thirdPartiesOverlay",
+        "label": "thirdParties.overlayLabel",
+        "icon": "product-plus",
+        "links": [
+          {
+            "linkLabel": "thirdParties.addVehicle",
+            "linkValue": "vehicle"
+          },
+          {
+            "linkLabel": "thirdParties.addProperty",
+            "linkValue": "property"
+          },
+          {
+            "linkLabel": "thirdParties.addPerson",
+            "linkValue": "person"
+          }
+        ]
+      },
+      "damagedPropertyConfig": {
+        "shortTitleLabel": "thirdPartyDamagedProperty.shortTitle",
+        "cardDisplayFields": {
+          "type": "thirdPartyDamagedProperty.shortTitle",
+          "name": "individualDetailsPersonData.firstName,individualDetailsPersonData.lastName",
+          "info": "dropdownSelection",
+          "optionalText": "thirdPartyDamagedProperty.nameUnknown"
+        },
+        "dropdownConfig": {
+          "label": "thirdPartyDamagedProperty.dropdown.label",
+          "options": [
+            {
+              "key": "thirdPartyDamagedProperty.dropdown.buildings",
+              "value": "Buildings"
+            },
+            {
+              "key": "thirdPartyDamagedProperty.dropdown.bridges",
+              "value": "Bridges"
+            }
+          ]
+        },
+        "textareaConfig": {
+          "label": "thirdPartyDamagedProperty.textarea.label",
+          "placeholder": "thirdPartyDamagedProperty.textarea.placeholder",
+          "maxLength": 255,
+          "required": true
+        },
+        "toggleConfig": {
+          "options": [
+            {
+              "key": "thirdPartyDamagedProperty.toggle.individual",
+              "value": "INDIVIDUAL",
+              "selected": true
+            },
+            {
+              "key": "thirdPartyDamagedProperty.toggle.organisation",
+              "value": "ORGANISATION",
+              "selected": false
+            }
+          ]
+        },
+        "checkboxConfig": {
+          "name": "salutation",
+          "options": [
+            {
+              "key": "thirdPartyDamagedProperty.salutation.MrsMs",
+              "value": "Mrs/Ms"
+            },
+            {
+              "key": "thirdPartyDamagedProperty.salutation.Mr",
+              "value": "Mr"
+            }
+          ],
+          "required": true,
+          "default": "Mrs/Ms"
+        },
+        "titleLabel": "thirdPartyDamagedProperty.title",
+        "toggleTitleLabel": "thirdPartyDamagedProperty.toggleLabel",
+        "buttonLabel": "thirdPartyDamagedProperty.saveButton",
+        "formConfigOption1": [
+          {
+            "id": "individualDetailsPersonData",
+            "fields": [
+              {
+                "label": "personalData.firstName",
+                "name": "firstName",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "personalData.lastName",
+                "name": "lastName",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "personalData.phoneNumber",
+                "name": "phone",
+                "type": "number",
+                "required": true
+              }
+            ],
+            "hasCheckbox": false
+          },
+          {
+            "id": "individualDetails.additionalCantactData",
+            "fields": [
+              {
+                "label": "personalData.email",
+                "name": "email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "label": "contactDetails.address1",
+                "name": "address1",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.address2",
+                "name": "address2",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.city",
+                "name": "townCity",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.zipCode",
+                "name": "zipCode",
+                "type": "string",
+                "required": false
+              }
+            ],
+            "hasCheckbox": true,
+            "checkboxLabel": "contactDetails.additionalContact"
+          }
+        ],
+        "formConfigOption2": [
+          {
+            "id": "organisationDetails.organisationData",
+            "fields": [
+              {
+                "label": "contactDetails.organisationName",
+                "name": "organisationName",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "personalData.phoneNumber",
+                "name": "phone",
+                "type": "number",
+                "required": true
+              }
+            ],
+            "hasCheckbox": false
+          },
+          {
+            "id": "organisationDetails.additionalCantactData",
+            "fields": [
+              {
+                "label": "personalData.email",
+                "name": "email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "label": "contactDetails.address1",
+                "name": "address1",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.address2",
+                "name": "address2",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.city",
+                "name": "townCity",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.zipCode",
+                "name": "zipCode",
+                "type": "string",
+                "required": false
+              }
+            ],
+            "hasCheckbox": true,
+            "checkboxLabel": "contactDetails.additionalContact"
+          }
+        ]
+      },
+      "cardsContainerConfig": {
+        "id": "thirdPartyCardContainer",
+        "cards": []
+      },
+      "damagedPersonConfig": {
+        "shortTitleLabel": "thirdPartyDamagedProperty.shortTitle",
+        "cardDisplayFields": {
+          "type": "thirdPartyDamagedPerson.shortTitle",
+          "name": "individualDetailsPersonData.firstName,individualDetailsPersonData.lastName",
+          "info": "circleButtonSelection",
+          "optionalText": "thirdPartyDamagedPerson.nameUnknown"
+        },
+        "circleButtonContainerConfig": {
+          "rows": [
+            [
+              {
+                "id": "pedestrian",
+                "label": "thirdPartyDamagedPerson.pedestrian",
+                "icon": "product-person"
+              },
+              {
+                "id": "cyclist",
+                "label": "thirdPartyDamagedPerson.cyclist",
+                "icon": "product-bike"
+              },
+              {
+                "id": "other_person",
+                "label": "thirdPartyDamagedPerson.other",
+                "icon": "plus"
+              }
+            ]
+          ],
+          "multiSelection": false,
+          "id": "test"
+        },
+        "checkboxConfig": {
+          "name": "salutation",
+          "options": [
+            {
+              "key": "thirdPartyDamagedPerson.salutation.MrsMs",
+              "value": "Mrs/Ms"
+            },
+            {
+              "key": "thirdPartyDamagedPerson.salutation.Mr",
+              "value": "Mr"
+            }
+          ],
+          "required": true,
+          "default": "Mrs/Ms"
+        },
+        "titleLabel": "thirdPartyDamagedPerson.title",
+        "personTypeLabel": "thirdPartyDamagedPerson.personTypeLabel",
+        "buttonLabel": "thirdPartyDamagedPerson.saveButton",
+        "formConfig": [
+          {
+            "id": "individualDetailsPersonData",
+            "fields": [
+              {
+                "label": "personalData.firstName",
+                "name": "firstName",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "personalData.lastName",
+                "name": "lastName",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "personalData.phoneNumber",
+                "name": "phone",
+                "type": "number",
+                "required": true
+              }
+            ],
+            "hasCheckbox": false
+          },
+          {
+            "id": "individualDetails.additionalCantactData",
+            "fields": [
+              {
+                "label": "personalData.email",
+                "name": "email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "label": "contactDetails.address1",
+                "name": "address1",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.address2",
+                "name": "address2",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.city",
+                "name": "townCity",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.zipCode",
+                "name": "zipCode",
+                "type": "string",
+                "required": false
+              }
+            ],
+            "hasCheckbox": true,
+            "checkboxLabel": "contactDetails.additionalContact"
+          }
+        ]
+      },
+      "damagedVehicleConfig": {
+        "shortTitleLabel": "thirdPartyDamagedVehicle.shortTitle",
+        "cardDisplayFields": {
+          "type": "thirdPartyDamagedVehicle.shortTitle",
+          "name": "individualDetailsPersonData.firstName,individualDetailsPersonData.lastName",
+          "info": "individualDetailsPersonData.registrationNumber",
+          "optionalText": "thirdPartyDamagedVehicle.nameUnknown"
+        },
+        "circleButtonContainerConfig": {
+          "rows": [
+            [
+              {
+                "id": "CAR",
+                "label": "vehicle_types.CAR",
+                "svg": "../../assets/images/cartype-1.svg",
+                "svgChecked": "../../assets/images/cartype-1_active.svg"
+              },
+              {
+                "id": "VAN",
+                "label": "vehicle_types.VAN",
+                "svg": "../../assets/images/cartype-2.svg",
+                "svgChecked": "../../assets/images/cartype-2_active.svg"
+              },
+              {
+                "id": "UTILITY_VEHICLE",
+                "label": "vehicle_types.UTILITY_VEHICLE",
+                "svg": "../../assets/images/cartype-3.svg",
+                "svgChecked": "../../assets/images/cartype-3_active.svg"
+              }
+            ],
+            [
+              {
+                "id": "TRUCK",
+                "label": "vehicle_types.TRUCK",
+                "svg": "../../assets/images/cartype-4.svg",
+                "svgChecked": "../../assets/images/cartype-4_active.svg"
+              },
+              {
+                "id": "other",
+                "label": "thirdPartyDamagedVehicle.other",
+                "icon": "plus"
+              }
+            ]
+          ],
+          "multiSelection": false,
+          "id": "test"
+        },
+        "injuredCheckboxConfig": {
+          "title": "thirdPartyDamagedVehicle.checkboxTitle",
+          "options": [
+            {
+              "id": "Driver",
+              "key": "thirdPartyDamagedVehicle.driver"
+            },
+            {
+              "id": "Passenger",
+              "key": "thirdPartyDamagedVehicle.passenger"
+            }
+          ],
+          "required": true
+        },
+        "titleLabel": "thirdPartyDamagedVehicle.title",
+        "vehicleTypeLabel": "vehicleType.label",
+        "vehiclePartsLabel": "vehicleParts.label",
+        "showFlatFrog": true,
+        "vehicleDataLabel": "vehicleData.label",
+        "driverDataLabel": "driverData.label",
+        "buttonLabel": "thirdPartyDamagedVehicle.saveButton",
+        "formConfigVehicle": [
+          {
+            "id": "individualDetailsPersonData",
+            "fields": [
+              {
+                "label": "vehicleData.registrationNumber",
+                "name": "registrationNumber",
+                "type": "text",
+                "required": true
+              },
+              {
+                "label": "vehicleData.maker",
+                "name": "maker",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "vehicleData.model",
+                "name": "model",
+                "type": "text",
+                "required": false
+              }
+            ],
+            "hasCheckbox": false
+          }
+        ],
+        "checkboxConfig": {
+          "name": "salutation",
+          "options": [
+            {
+              "key": "thirdPartyDamagedProperty.salutation.MrsMs",
+              "value": "Mrs/Ms"
+            },
+            {
+              "key": "thirdPartyDamagedProperty.salutation.Mr",
+              "value": "Mr"
+            }
+          ],
+          "required": true,
+          "default": "Mrs/Ms"
+        },		
+        "formConfigDriver": [
+          {
+            "id": "individualDetailsPersonData",
+            "fields": [
+              {
+                "label": "personalData.firstName",
+                "name": "firstName",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "personalData.lastName",
+                "name": "lastName",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "personalData.phoneNumber",
+                "name": "phone",
+                "type": "number",
+                "required": false
+              }
+            ],
+            "hasCheckbox": false
+          },
+          {
+            "id": "individualDetails.additionalCantactData",
+            "fields": [
+              {
+                "label": "personalData.email",
+                "name": "email",
+                "type": "email",
+                "required": false
+              },
+              {
+                "label": "contactDetails.address1",
+                "name": "address1",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.address2",
+                "name": "address2",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.city",
+                "name": "townCity",
+                "type": "text",
+                "required": false
+              },
+              {
+                "label": "contactDetails.zipCode",
+                "name": "zipCode",
+                "type": "string",
+                "required": false
+              }
+            ],
+            "hasCheckbox": true,
+            "checkboxLabel": "contactDetails.additionalContact"
+          }
+        ]
+      }
+    },
+    "confirmationModal": {
+      "title": "thirdParties.confirmationModal.title",
+      "btnAccept": "thirdParties.confirmationModal.btnAccept",
+      "btnCancel": "thirdPartiesconfirmationModal.btnCancel"
+    }
+  }

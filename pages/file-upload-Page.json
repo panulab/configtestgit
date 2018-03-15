@@ -1,0 +1,41 @@
+  {
+    "pageId": "file-upload",
+    "showFooter": true,
+    "showHeader": true,
+    "hideNextButton": false,
+    "hideBackButton": false,
+    "fileUploadPageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "Documents"
+      },
+      "subtitleConfig": {
+        "showSubtitle": true,
+        "subtitleText":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "fileUploadConfig": {
+        "fileUploadLibraryConfig": {
+          "file_upload_endpoint":
+            "https://fnol-nodejs-mock-dev.apps.adp.allianz/fnol/uploadfile",
+          "file_delete_endpoint":
+            "https://fnol-nodejs-mock-dev.apps.adp.allianz/fnol/deleteFile",
+          "file_fetch_endpoint":
+            "https://fnol-nodejs-mock-dev.apps.adp.allianz/fnol/fetchfile",
+          "file_list_fetch_endpoint":
+            "https://fnol-nodejs-mock-dev.apps.adp.allianz/fnol/fetchfilelist",
+          "file_document_size_max": 3,
+          "file_image_after_compression_max_size": 1,
+          "file_max_number_of_files_allowed": 5,
+          "file_allowed_file_types": ["jpg", "png", "pdf"]
+        },
+        "currencyConfig": {
+          "currencyThousandSeparator": ".",
+          "currencyDecimalSeparator": ",",
+          "id": "FILE_UPLOAD_AMOUNT",
+          "label": "EUR",
+          "placeholder": "Excepteur sint occaecat "
+        }
+      }
+    }
+  }

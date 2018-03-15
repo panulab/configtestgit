@@ -1,0 +1,11 @@
+  {
+    "pageId": "error-page",
+    "showHeader": true,
+    "showFooter": true,
+    "hideNextButton": true,
+    "hideBackButton": true,
+    "titleConfig": {
+      "showTitle": true,
+      "titleText": "errorPageMessage"
+    }
+  }

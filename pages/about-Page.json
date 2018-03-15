@@ -1,0 +1,92 @@
+{
+  "pageId": "about",
+  "showFooter": true,
+  "showHeader": true,
+  "hideNextButton": false,
+  "hideBackButton": false,
+  "aboutPageConfig": {
+    "titleConfig": {
+      "showTitle": true,
+      "titleText": "aboutPage.title"
+    },
+    "loggedIn": false,
+    "numPolicies": 1,
+    "policyInfoId": "abouPlateNumberInfo",
+    "loginConfig": {
+      "policyDataConfig": {
+        "label": "aboutPage.plateNumberInfo",
+        "onePlateLabel": "Your Plate",
+        "required": true,
+        "policyOtherRequired": true,
+        "policyOtherLabel": "aboutPage.onePlateLabel"
+      }
+    },
+    "notLoginConfig": {
+      "userFormConfig": {
+        "id": "aboutUserData",
+        "fields": [
+          {
+            "label": "aboutPage.userData.firstName",
+            "name": "firstName",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "aboutPage.userData.lastName",
+            "name": "lastName",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "hasCheckbox": false
+      },
+      "policyFormConfig": {
+        "id": "aboutPolicyData",
+        "fields": [
+          {
+            "label": "aboutPage.policyData.plateNumber",
+            "name": "plateNumber",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "aboutPage.policyData.birthDate",
+            "name": "birthDate",
+            "type": "date",
+            "required": true
+          },
+          {
+            "label": "aboutPage.policyData.policyNumber",
+            "name": "policyNumber",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "hasCheckbox": false
+      }
+    },
+    "preferredOptionConfig": {
+      "id": "aboutPage.preferredContact",
+      "default": "email",
+      "options": [
+        {
+          "label": "aboutPage.email",
+          "type": "email",
+          "value": "email",
+          "name": "email",
+          "required": false
+        },
+        {
+          "label": "aboutPage.phone",
+          "type": "tel",
+          "value": "phone",
+          "name": "phone",
+          "required": false
+        }
+      ],
+      "required": true,
+      "label": "aboutPage.preferredContactLabel",
+      "radiosLabel": "aboutPage.preferredCheckboxLabel"
+    }
+  }
+}

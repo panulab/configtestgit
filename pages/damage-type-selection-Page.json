@@ -18,7 +18,8 @@
         "label": "textarea.label",
         "placeholder": "textarea.placeholder",
         "maxLength": 255,
-        "hidden": false
+        "hidden": false,
+        "required":true
       },
       "circleButtonContainerConfig": {
         "id": "damageTypeButtons",

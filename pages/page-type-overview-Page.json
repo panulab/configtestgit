@@ -1,0 +1,71 @@
+  {
+    "pageId": "page-type-overview",
+    "hideBackButton": false,
+    "hideNextButton": false,
+    "showFooter": true,
+    "showHeader": true,
+    "navigationOptionsPageConfig": {
+      "titleConfig": {
+        "showTitle": true,
+        "titleText": "Pages Type Overview"
+      },
+      "subtitleConfig": {
+        "showSubtitle": false
+      },
+      "textareaConfig": {
+        "id": "",
+        "label": "",
+        "maxLength": 0,
+        "placeholder": "",
+        "hidden": true
+      },
+      "circleButtonContainerConfig": {
+        "id": "page-type-selection",
+        "multiSelection": false,
+        "rows": [
+          [
+            {
+              "id": "navigation-options",
+              "label": "Navigation Options",
+              "icon": "plus"
+            },
+            {
+              "id": "navigation-options-large",
+              "label": "Navigation Options Large",
+              "icon": "plus"
+            },
+            {
+              "id": "additional-information",
+              "label": "Additional Information",
+              "icon": "plus"
+            },
+            {
+              "id": "person-details",
+              "label": "Person Details",
+              "icon": "plus"
+            },
+            {
+              "id": "third-parties",
+              "label": "Third Parties",
+              "icon": "plus"
+            },
+            {
+              "id": "car-part-picker",
+              "label": "Car Part Picker",
+              "icon": "plus"
+            },
+            {
+              "id": "about",
+              "label": "About You",
+              "icon": "plus"
+            },
+            {
+              "id": "file-upload",
+              "label": "File Upload",
+              "icon": "plus"
+            }
+          ]
+        ]
+      }
+    }
+  }

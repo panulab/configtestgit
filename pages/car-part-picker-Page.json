@@ -1,0 +1,86 @@
+{
+  "pageId": "car-part-picker",
+  "showFooter": true,
+  "showHeader": true,
+  "hideNextButton": false,
+  "hideBackButton": true,
+  "carPartPickerPageConfig": {
+    "id": "carPartPicker",
+    "defaultType": "CAR",
+    "availableTypes": ["CAR", "VAN"],
+    "lang": "en",
+    "displayTypePicker": true,
+    "showDetailedCarParts": true,
+    "typeSelectionText": "Please select the type of your vehicle",
+    "areaSelectionText":
+      "Please select all the areas your vehicle has sistained damage",
+    "additionalQuestionConfig": {
+      "id": "additional_question",
+      "questionText": "Question text",
+      "questionHidden": false,
+      "questionMandatory": false,
+      "leftOptionConfig": {
+        "id": "left",
+        "icon": "/icon_yes-default.svg",
+        "iconChecked": "/icon_yes-selected.svg"
+      },
+      "rightOptionConfig": {
+        "id": "right",
+        "icon": "/icon_no-default.svg",
+        "iconChecked": "/icon_no-selected.svg"
+      },
+      "iconsUrl": "../../assets/misc/",
+      "additionalFieldType": "TEXT",
+      "inputLabel": "Additional text",
+      "additionalFieldSide": "left",
+      "currencyLabel": "Currency",
+      "textareaConfig": {
+        "id": "carPartPickerTextArea",
+        "maxLength": 1024,
+        "label": "",
+        "placeholder": "Placeholder",
+        "hidden": false
+      },
+      "googleAutocompleteConfig": {
+        "countryCodes": [],
+        "label": ""
+      },
+      "lang": "en"
+    },
+    "carTypeOtherTextareaConfig": {
+      "id": "test",
+      "label": "test",
+      "maxLength": 100,
+      "placeholder": "test",
+      "required": false,
+      "hidden": false
+    },
+    "titleConfig": {
+      "showTitle": true,
+      "titleText": "navigationFnol.title"
+    },
+    "questionContainerConfig": {
+      "id": "questionContainerTest",
+      "questions": [
+        {
+          "id": "q1",
+          "questionText":
+            "Is the damage to your vehicle more than light scratching/small dents?",
+          "questionHidden": false,
+          "questionMandatory": false,
+          "iconsUrl": "../../assets/misc/",
+          "leftOptionConfig": {
+            "id": "LEFT_Q1",
+            "icon": "/icon_yes-default.svg",
+            "iconChecked": "/icon_yes-selected.svg"
+          },
+          "rightOptionConfig": {
+            "id": "RIGHT_Q1",
+            "icon": "/icon_no-default.svg",
+            "iconChecked": "/icon_no-selected.svg"
+          }
+        }
+      ]
+    }
+  }
+}

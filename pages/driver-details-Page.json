@@ -1,0 +1,109 @@
+{
+  "pageId": "driver-details",
+  "showFooter": true,
+  "showHeader": true,
+  "hideNextButton": false,
+  "hideBackButton": true,
+  "driverDetailsPageConfig": {
+    "userIsLoggedIn": true,
+    "titleConfig": {
+      "showTitle": true,
+      "titleText": "Heading"
+    },
+    "subtitleConfig": {
+      "showSubtitle": false,
+      "subtitleText": "Subtitle lorem ipsum dolore"
+    },
+    "firstQuestionConfig": {
+      "id": "driver",
+      "questionIdToActivateExtraFields": "LEFT_Q2",
+      "questions": [
+        {
+          "id": "q2",
+          "questionText": "q2.test",
+          "questionHidden": false,
+          "questionMandatory": true,
+          "iconsUrl": "../../assets/misc/",
+          "leftOptionConfig": {
+            "id": "LEFT_Q2",
+            "icon": "/icon_yes-default.svg",
+            "iconChecked": "/icon_yes-selected.svg"
+          },
+          "rightOptionConfig": {
+            "id": "RIGHT_Q2",
+            "icon": "/icon_no-default.svg",
+            "iconChecked": "/icon_no-selected.svg"
+          }
+        }
+      ]
+    },
+    "firstQuestionRadioListConfig": {
+      "id": "driversRadioList",
+      "label": "Select the driver"
+    },
+    "firstQuestionFormConfig": {
+      "id": "driverDetails",
+      "fields": [
+        {
+          "label": "personalData.firstName",
+          "name": "firstName",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "personalData.lastName",
+          "name": "lastName",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "hasCheckbox": false
+    },
+    "secondQuestionConfig": {
+      "id": "responsibleParty",
+      "label":"Who is responsible for the damage in your opinion?",
+      "rows": [
+        [
+          {
+            "id": "responsibleQuestion.me",
+            "label": "Me",
+            "icon": "product-animal-cat"
+          },
+          {
+            "id": "responsibleQuestion.other_party",
+            "label": "Other party",
+            "icon": "product-house-fire"
+          },
+          {
+            "id": "responsibleQuestion.both",
+            "label": "Both",
+            "icon": "product-danger"
+          }
+        ]
+      ],
+      "multiSelection": false
+    },
+    "thirdQuestionConfig": {
+      "id": "injuredPassengers",
+      "questions": [
+        {
+          "id": "q3",
+          "questionText": "Were any passengers in your vehicle injured?",
+          "questionHidden": false,
+          "questionMandatory": true,
+          "iconsUrl": "../../assets/misc/",
+          "leftOptionConfig": {
+            "id": "LEFT_Q3",
+            "icon": "/icon_yes-default.svg",
+            "iconChecked": "/icon_yes-selected.svg"
+          },
+          "rightOptionConfig": {
+            "id": "RIGHT_Q3",
+            "icon": "/icon_no-default.svg",
+            "iconChecked": "/icon_no-selected.svg"
+          }
+        }
+      ]
+    }
+  }
+}
