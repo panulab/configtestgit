@@ -1,3 +1,4 @@
 {
-  "serviceActivatorId": "about"
+  "serviceActivatorId": "retrievePolicyData1",
+  "pluginId": "type1"
 }
