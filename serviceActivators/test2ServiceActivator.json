@@ -1,4 +1,5 @@
 {
   "serviceActivatorId": "retrievePolicyData2",
-  "pluginId": "type2"
+  "pluginId": "type2",
+  "operationId": "Bye"
 }
