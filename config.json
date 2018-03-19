@@ -15,5 +15,5 @@
 	"validateDocumentSize":true,
 	"redisHostName":"localhost",
 	"redisPort":6379,
-	"cislVersion":former
+	"cislVersion":"former"
 }
