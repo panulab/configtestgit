@@ -15,5 +15,12 @@
 	"validateDocumentSize":true,
 	"redisHostName":"localhost",
 	"redisPort":6379,
-	"cislVersion":"former"
+	"cislVersion":"former",
+	"cislAuthClientId":"cisl",
+	"cislAuthClientSecret":"mySecretOAuthSecret",
+	"cislAuthUrl":"http://localhost:8090/oauth/token",
+	"cislAuthUser":"user",
+	"cislAuthPassword":"password",
+	"cislAuthGrantType":"client_credentials",
+	"cislUrl":"http://localhost:8090/api"
 }
