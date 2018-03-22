@@ -23,5 +23,6 @@
 	"cislAuthUser":"user",
 	"cislAuthPassword":"password",
 	"cislAuthGrantType":"client_credentials",
-	"cislUrl":"http://localhost:8090/api"
+	"cislUrl":"http://localhost:8090/api",
+	"thumbnailSize":150
 }
