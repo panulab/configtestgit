@@ -15,6 +15,7 @@
 	"validateDocumentSize":true,
 	"redisHostName":"localhost",
 	"redisPort":6379,
+	"redisExpirationTime":500,
 	"cislVersion":"former",
 	"cislAuthClientId":"cisl",
 	"cislAuthClientSecret":"mySecretOAuthSecret",
