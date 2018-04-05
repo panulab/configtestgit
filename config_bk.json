@@ -1,6 +1,6 @@
 {
 	"maxLengthCommentsField":200,
-	"typesOfDocumentsAllowed": [pdf,jpg,tiff],
+	"typesOfDocumentsAllowed": ["*.pdf","*.jpg","*.tiff"],
 	"maxFileSize":1000,
 	"useICAPMalwareDetection":true,
 	"ICAPHost":"34.241.39.255",
