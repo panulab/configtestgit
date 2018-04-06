@@ -1,6 +1,6 @@
 {
 	"maxLengthCommentsField":200,
-	"typesOfDocumentsAllowed": ["pdf","jpg","tiff"],
+	"typesOfDocumentsAllowed": ["*.pdf","*.jpg","*.tiff"],
 	"maxFileSize":1000,
 	"useICAPMalwareDetection":true,
 	"ICAPHost":"34.241.39.255",
@@ -13,7 +13,7 @@
 	"validateDocumentExtension":true,
 	"validateDocumentMimetype":true,
 	"validateDocumentSize":true,
-	"redisHostName":"127.0.0.1",
+	"redisHostName":"localhost",
 	"redisPort":6379,
 	"redisExpirationTime":500,
 	"cislVersion":"former",
