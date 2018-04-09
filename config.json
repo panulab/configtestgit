@@ -24,5 +24,8 @@
 	"cislAuthPassword":"password",
 	"cislAuthGrantType":"client_credentials",
 	"cislUrl":"http://localhost:8090/api",
+	"cislRetryTimeoutAttempts":3,
+	"cislRetryInvalidTokenAttempts":3,
+	"cislRetryDelay":5000,
 	"thumbnailSize":150
 }
